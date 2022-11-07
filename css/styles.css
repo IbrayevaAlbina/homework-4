@@ -217,6 +217,15 @@ img {
   
 }
 
+.contacts-social-link:focus .contacts-social-icon-envelop  {
+  color: #188ce8;
+  fill: var(--blue);
+}
+.contacts-social-link:focus .contacts-social-icon-smartphone {
+  color: #188ce8;
+  fill: var(--blue);
+} 
+
 /* main */
 /* services */
 
@@ -552,10 +561,11 @@ img {
   border-color: var(--blue);  
 }
 .lean-clients-link:focus {
-  background-color: var(--blue);
+  border-color: var(--blue); 
 }
 .lean-clients-link:focus .lean-clients-social-icon {
-  fill: var(--white);
+  fill: var(--blue);
+  border-color: var(--blue); 
 }
 
 
@@ -563,14 +573,15 @@ img {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
+ 
 }
 
 .footer-items:not(:last-child) {
